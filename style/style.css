@@ -1,0 +1,149 @@
+#steps { font-size: 22px; text-align: center; background: #eee; border-bottom: 3px solid #aaa; padding: 10px; }
+
+
+
+#manage { overflow: hidden; margin: 20px 10px; }
+
+#manage h2 { margin: 20px 0 10px 0; }
+
+#manage table { border:none }
+
+#manage table tr td { font-size: 13px; padding: 10px; }
+
+#manage table tr td h3 { font-size: 16px; margin-bottom:10px; }
+
+#manage table tr td select { width: 200px; }
+
+#manage table tr td input[type="text"], #manage table tr td input[type="email"], #manage table tr td input[type="password"] { width: 194px; }
+
+#manage .manage-menu { overflow: hidden; margin: 20px 0 0 0; }
+
+#manage .manage-menu #subMenuTab { overflow: hidden; }
+
+#manage .manage-menu #subMenuTab a { float: left; border-left: 1px solid #fff; padding: 10px 20px; color: #555; background: url(/wp-content/uploads/2012/01/bg-tab.png) repeat-x }
+
+#manage .manage-menu #subMenuTab a:hover { color: #444; background: url(/wp-content/uploads/2012/01/bg-tab.png) 0 -38px repeat-x  }
+
+#manage .manage-menu #subMenuTab div.tab-inner, #manage .manage-menu #subMenuTab .tab-left, #manage .manage-menu #subMenuTab .tab-right { float: left; border-left: 1px solid #d1d1d1; border-top: 1px solid #d1d1d1; border-right: 1px solid #d1d1d1; }
+
+#manage .manage-menu #subMenuTab div.tab-inner, #manage .manage-menu #subMenuTab .tab-right { border-left: none; }
+
+#manage .manage-menu #subMenuTab .tab-left { -webkit-border-top-left-radius: 5px; -moz-border-radius-topleft: 5px; border-top-left-radius: 5px; }
+
+#manage .manage-menu #subMenuTab .tab-left a { -webkit-border-top-left-radius: 5px; -moz-border-radius-topleft: 5px; border-top-left-radius: 5px; }
+
+#manage .manage-menu #subMenuTab .tab-left a { border: none; }
+
+#manage .manage-menu #subMenuTab .tab-right { -webkit-border-top-right-radius: 5px; -moz-border-radius-topright: 5px; border-top-right-radius: 5px; }
+
+#manage .manage-menu #subMenuTab .tab-right a { -webkit-border-top-right-radius: 5px; -moz-border-radius-topright: 5px; border-top-right-radius: 5px; }
+
+#manage .manage-menu #subMenuTab .tab-active, #manage .manage-menu #subMenuTab .tab-active a { background: #fff; border-bottom: 1px solid #fff; }
+
+#manage .inner { background: #fff; min-height: 350px; padding: 20px; border-left: 1px solid #acaca8; border-right: 1px solid #acaca8; border-bottom: 1px solid #acaca8;  -webkit-border-bottom-right-radius: 5px; -moz-border-radius-bottomright: 5px; border-bottom-right-radius: 5px; 
+
+-webkit-border-bottom-left-radius: 5px; -moz-border-radius-bottomleft: 5px; border-bottom-left-radius: 5px;}
+
+
+
+#manage .inner .account div { overflow:hidden; }
+
+#manage .inner .account div a { padding: 10px; color:#333; background: #eee; border-bottom: 2px solid #aaa; float:left; width: 300px; }
+
+#manage .inner .account div a:hover { background: #f5f5f5; }
+
+#manage .inner p.submit { text-align: right; }
+
+
+
+/* User Gallery */
+
+#manage .inner .profileimage { float:left; background: #eee!important; border: 1px solid #aaa; font-size:13px; position: relative; }
+
+#manage .inner .profileimage .primary { padding: 5px; color: #fff; }
+
+#manage .inner .profileimage .delete { position: absolute; padding: 5px; text-align: center; left: 0; top: 0; background:#fff; right:0; }
+
+#manage .inner h3 { font-weight: bold; padding: 10px 0; border-bottom: 2px solid #eaeaea; margin-bottom: 10px; }
+
+
+
+#interact .full { min-width: 500px; }
+
+#interact .half { width: 45%; padding: 20px 30px; }
+
+#interact  p.error  { padding: 10px; background: #fafafa; border-bottom: 3px solid #ff0000; }
+
+
+
+#dashboard-sign-in {  }
+
+#dashboard-sign-in h1{ margin-bottom:10px; }
+
+#dashboard-sign-in form { }
+
+#dashboard-sign-in form .box { float: left; clear: both; width: 100%; }
+
+#dashboard-sign-in form .submit-box { float: left; clear: both; width: 100%; padding: 10px; text-align: center; }
+
+#dashboard-sign-in form .box label, #dashboard-sign-in form .box label { float: left; line-height: 28px; }
+
+#dashboard-sign-in form .box label { width: 20%; font-size: 16px; height: 50px; line-height: 50px; padding: 0 10px; }
+
+#dashboard-sign-in form .box input[type="text"], #dashboard-sign-in form .box input[type="password"] { border: 1px solid #819eba; }
+
+#dashboard-sign-in form .box input[type="text"] {width: 70%; height: 25px; margin: 10px 0 0 10px; }
+
+#dashboard-sign-in form .box input[type="password"] { width: 40%; height: 25px; margin: 10px 0 0 10px; }
+
+#dashboard-sign-in form .box input[type="checkbox"] { margin: 10px auto; text-align: center; margin-left: 141px; }
+
+#dashboard-sign-in form .submit-box input[type="submit"] { background: #454545; color: #fff; font-size: 16px; border: none; cursor: pointer; padding: 10px 20px; }
+
+#dashboard-sign-in #facebook-sign-in { text-align: center; }
+
+#dashboard-sign-in form .box a { white-space:nowrap; font-size: 10px; }
+
+
+
+#not-a-member { width: 30%; margin: 0 20px 0 0; border-left: 3px solid #ddd; padding: 20px 0 20px 30px; float: left; }
+
+#not-a-member ul { list-style: disc; line-height: 20px; clear: both; }
+
+#not-a-member #talent-register { float:left; }
+
+#not-a-member #talent-register a#register-talent, #not-a-member #agent-register a#register-agent { text-align: center; float:left; font-size: 16px; color: #fff;  background: #454545; padding: 10px 20px;  }
+
+#not-a-member #agent-register { padding-top: 10px; margin-top: 20px; float:left; }
+
+
+
+/* Register */
+
+.rb-login {  }
+
+.rb-login p.alert { border-bottom: 3px solid #0C0; background:#fafafa; padding: 10px; }
+
+.rb-login h1 { margin-bottom:10px; }
+
+.rb-login form#adduser {  }
+
+.rb-login form#adduser p { padding: 10px; margin:0; overflow:hidden; }
+
+.rb-login form#adduser p input[type="text"],
+
+.rb-login form#adduser p input[type="email"],
+
+.rb-login form#adduser p select { float:left; padding: 5px; }
+
+.rb-login form#adduser p label { width:150px; float:left; line-height: 28px; }
+
+.rb-login form#adduser p input[type="text"],
+
+.rb-login form#adduser p input[type="email"] { width: 200px; }
+
+.rb-login form#adduser p select { width: 212px; }
+
+.rb-login form#adduser p input[type="checkbox"] { margin-left:150px; }
+
+.rb-login form#adduser p input[type="submit"] { float:left; margin-left: 292px; }
